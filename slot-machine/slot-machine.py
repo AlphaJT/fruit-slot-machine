@@ -25,11 +25,10 @@ def roll():
 		
 		bet = input()
 		print()
-		try:
-			bet = float(bet)
-		except:
-			print('Your bet must be a number!\n')
+		if not (isinstance(bet, int) or isinstance(bet, float)):
+			print('Kindly give a number!!!! :)')
 			return
+			
 
 		if bet <= 0:
 			print('Enter valid number !!!!.\n')
