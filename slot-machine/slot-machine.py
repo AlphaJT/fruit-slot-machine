@@ -57,6 +57,7 @@ def roll():
 
 		if money <= 0:
 			print('You have no money left. Low roller.\n')
+			print('sed life lul')
 			
 			return
 		elif money < 1000000000:
