@@ -24,7 +24,7 @@ def roll():
 		print('---->   Enter your bet   :',end="   ")
 		
 		bet = input()
-		print()
+		print("You input ",bet)
 		if not (isinstance(bet, int) or isinstance(bet, float)):
 			print('Kindly give a number!!!! :)')
 			return
